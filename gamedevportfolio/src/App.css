@@ -39,6 +39,21 @@ html,body,#root{
 .home{
   width: 100%;
   height: 100%;
-  background: linear-gradient(to Left,
-      #348f50, #56b4d3);
+  /* background: linear-gradient(to Left,
+      #348f50, #56b4d3); */
+}
+
+.home .profile{
+  width: 100%;
+  height: 100%;
+}
+
+.home .profile img{
+  height: 400px;
+  width: 400px;
+  background-color: #348f50;
+  border-radius: 50%;
+  margin-top: 16vh;
+  margin-left: 8vw;
+  box-shadow: 2px 2px 2px 2px #7c7474;
 }
