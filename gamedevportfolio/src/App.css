@@ -19,6 +19,11 @@ body,
   font-family: cursive;
 }
 
+a {
+  text-decoration: none;
+  color: white;
+}
+
 .navbar {
   display: flex;
   justify-content: space-between;
@@ -49,7 +54,7 @@ body,
   background: linear-gradient(to Left, #818b84, #b9c4c8);
 }
 
-.home .myProjectsHeading{
+.home .myProjectsHeading {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -64,13 +69,11 @@ body,
   justify-content: space-around;
 }
 
-.home .profile img {
+.home .profile .profileImg {
   height: 400px;
   width: 400px;
   background-color: #348f50;
   border-radius: 50%;
-  /* margin-top: 16vh;
-  margin-left: 8vw; */
   box-shadow: -1px -2px 27px 5px #7c7474;
   ;
 }
@@ -129,6 +132,50 @@ body,
   width: 41vw;
   color: black;
 }
+.home .profile .gmailContainer{
+  display: flex;
+  margin-top: 7px;
+}
+
+.home .profile .gmailContainer a{
+  padding: 0px 16px;
+}
+
+.home .profile .gmailContainer img {
+  width: 28px;
+  background: white;
+  padding: 2px;
+  border-radius: 5px;
+}
+
+.home .profile .phoneNumber{
+  display: flex;
+  margin-top: 7px;
+}
+
+.home .profile .phoneNumber a{
+  padding: 0px 16px;
+}
+
+.home .profile .phoneNumber img {
+  width: 28px;
+  background: white;
+  border-radius: 50%;
+  padding: 3px;
+}
+
+.home .profile .linkedin{
+  display: flex;
+  margin-top: 7px;
+}
+.home .profile .linkedin a{
+  padding: 0px 16px;
+}
+.home .profile .linkedin img {
+  width: 28px;
+  border-radius: 4px;
+  padding: 2px;
+}
 
 .videoPlayer {
   width: 100%;
@@ -142,7 +189,7 @@ body,
   display: flex;
 }
 
-.videoPlayer .videoContainer div{
+.videoPlayer .videoContainer div {
   padding: 0px 30px 0px 30px;
   font-size: 21px;
 }
