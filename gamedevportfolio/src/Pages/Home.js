@@ -6,7 +6,7 @@ import phoneCall from '../Images/phone-call.png';
 // import linkedin from '../Images/linkedin.png';
 import Fullpage, { FullPageSections, FullpageSection } from '@ap.cx/react-fullpage';
 import ZombieKillerGame from '../Video/ZombieKillerGame.mp4';
-import BattleGround from '../Video/Battleground.mp4';
+import BattleGround from '../Video/Battlefront.mp4';
 import GalaxyShooter from '../Video/GalaxyShooter.mp4';
 import { FaChevronDown } from "react-icons/fa";
 
