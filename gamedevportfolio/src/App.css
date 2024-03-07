@@ -59,6 +59,13 @@ a {
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  position: relative;
+  animation: moveAnim 1s infinite ease-in-out;
+}
+
+@keyframes moveAnim {
+  0%{top: 0px;}
+  100%{top: 20px;}
 }
 
 .home .profile {

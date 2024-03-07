@@ -12,6 +12,7 @@ function Home() {
 
   const GameVideo = [ZombieKillerGame, ZombieKillerGame, ZombieKillerGame];
   const GameTitle = ["Zombie Killer", "Pubg", "Galaxi Shooter"];
+  const GameDescription = [];
 
   return (
     <>
