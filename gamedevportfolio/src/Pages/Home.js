@@ -32,12 +32,12 @@ function Home() {
                     Hi, My name is Balram Thakur And I am a Unity 2d and 3d Game Developer
                   </h2>
                   <div className='gmailContainer'>
-                    <a onMouseEnter={() => { setGmailText(true) }} onMouseLeave={() => {setGmailText(false)}} href="https://mail.google.com/mail/u/1/?view=cm&fs=1&to=balramthakur159@gmail.com&tf=1
+                    <a onMouseEnter={() => { setGmailText(true) }} onMouseLeave={() => { setGmailText(false) }} href="https://mail.google.com/mail/u/1/?view=cm&fs=1&to=balramthakur159@gmail.com&tf=1
 "><img src={gmail} alt='Gmail' /></a>{gmailText && "balramthakur159@gmail.com"}
                   </div>
                   <div className='phoneNumber'>
 
-                    <a onMouseEnter={() => { setPhoneNumber(true) }} onMouseLeave={() => {setPhoneNumber(false)}} href="tel:932-664-7491"><img src={phoneCall} alt='Gmail' /> </a>{phoneNumber && "9326647491"}
+                    <a onMouseEnter={() => { setPhoneNumber(true) }} onMouseLeave={() => { setPhoneNumber(false) }} href="tel:932-664-7491"><img src={phoneCall} alt='Gmail' /> </a>{phoneNumber && "9326647491"}
                   </div>
                 </div>
               </div>
