@@ -6,13 +6,15 @@ import phoneCall from '../Images/phone-call.png';
 import linkedin from '../Images/linkedin.png';
 import Fullpage, { FullPageSections, FullpageSection } from '@ap.cx/react-fullpage';
 import ZombieKillerGame from '../Video/ZombieKillerGame.mp4';
+import BattleGround from '../Video/Battleground.mp4';
+import GalaxyShooter from '../Video/GalaxyShooter.mp4';
 import { FaChevronDown } from "react-icons/fa";
 
 function Home() {
 
-  const GameVideo = [ZombieKillerGame, ZombieKillerGame, ZombieKillerGame];
-  const GameTitle = ["Zombie Killer", "Pubg", "Galaxi Shooter"];
-  const GameDescription = [];
+  const GameVideo = [ZombieKillerGame, BattleGround, GalaxyShooter];
+  const GameTitle = ["Zombie Killer", "BattleGround Havoc", "Galaxi Shooter"];
+  const GameDescription = ["Zombie Killer Car is an adrenaline-pumping zombie car killer game where players unleash havoc on waves of zombies infesting the village. The objective is simple: mow down as many zombies as possible to earn points, which can be used to upgrade your car for even more carnage. With each kill, players earn one point, which can be spent on upgrading the car's health or unlocking devastating weapons like a rocket launcher."];
 
   return (
     <>
@@ -37,7 +39,7 @@ function Home() {
                     <a href="tel:932-664-7491">9326647491</a>
                   </div>
                   <div className='linkedin'>
-                    <img src={linkedin} alt='linkedin'/>
+                    <img src={linkedin} alt='linkedin' />
                   </div>
                 </div>
               </div>
@@ -56,8 +58,11 @@ function Home() {
                   <source src={GameVideo[0]} type="video/mp4" />
                 </video>
                 <div>
-                  <p>
+                  <h3>
                     {GameTitle[0]}
+                  </h3>
+                  <p>
+                    {GameDescription[0]}
                   </p>
                 </div>
               </div>
@@ -68,8 +73,11 @@ function Home() {
                   <source src={GameVideo[1]} type="video/mp4" />
                 </video>
                 <div>
-                  <p>
+                  <h3>
                     {GameTitle[1]}
+                  </h3>
+                  <p>
+                    {GameDescription[0]}
                   </p>
                 </div>
               </div>
@@ -84,7 +92,7 @@ function Home() {
                     {GameTitle[2]}
                   </h3>
                   <p>
-
+                    {GameDescription[0]}
                   </p>
                 </div>
               </div>
