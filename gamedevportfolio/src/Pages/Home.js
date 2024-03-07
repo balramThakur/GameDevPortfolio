@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import Navbar from '../Components/Navbar';
 import profilePicture from '../Images/profile-picture.jpg';
 import gmail from '../Images/gmail.png';
@@ -12,6 +12,8 @@ import { FaChevronDown } from "react-icons/fa";
 
 function Home() {
 
+  const [gmailText, setGmailText] = useState(false);
+  const [phoneNumber, setPhoneNumber] = useState(false);
   const GameVideo = [ZombieKillerGame, BattleGround, GalaxyShooter];
   const GameTitle = ["Zombie Killer", "BattleGround Havoc", "Galaxi Shooter"];
   const GameDescription = ["Zombie Killer Car is an adrenaline-pumping zombie car killer game where players unleash havoc on waves of zombies infesting the village. The objective is simple: mow down as many zombies as possible to earn points, which can be used to upgrade your car for even more carnage. With each kill, players earn one point, which can be spent on upgrading the car's health or unlocking devastating weapons like a rocket launcher."];
@@ -30,13 +32,12 @@ function Home() {
                     Hi, My name is Balram Thakur And I am a Unity 2d and 3d Game Developer
                   </h2>
                   <div className='gmailContainer'>
-                    <img src={gmail} alt='Gmail' />
-                    <a href="https://mail.google.com/mail/u/1/?view=cm&fs=1&to=balramthakur159@gmail.com&tf=1
-">balramthakur159@gmail.com</a>
+                    <a onMouseEnter={() => { setGmailText(true) }} onMouseLeave={() => {setGmailText(false)}} href="https://mail.google.com/mail/u/1/?view=cm&fs=1&to=balramthakur159@gmail.com&tf=1
+"><img src={gmail} alt='Gmail' /></a>{gmailText && "balramthakur159@gmail.com"}
                   </div>
                   <div className='phoneNumber'>
-                    <img src={phoneCall} alt='Gmail' />
-                    <a href="tel:932-664-7491">9326647491</a>
+
+                    <a onMouseEnter={() => { setPhoneNumber(true) }} onMouseLeave={() => {setPhoneNumber(false)}} href="tel:932-664-7491"><img src={phoneCall} alt='Gmail' /> </a>{phoneNumber && "9326647491"}
                   </div>
                   <div className='linkedin'>
                     <img src={linkedin} alt='linkedin' />
@@ -54,7 +55,7 @@ function Home() {
           <div className='videoPlayer'>
             <FullpageSection style={{ with: "100vh", padding: "14vh 0" }}>
               <div className='videoContainer'>
-                <video width="800" autoPlay="true" loop="true" controls >
+                <video width="800" autoPlay="true" loop="true" >
                   <source src={GameVideo[0]} type="video/mp4" />
                 </video>
                 <div>
@@ -69,7 +70,7 @@ function Home() {
             </FullpageSection>
             <FullpageSection style={{ with: "100vh", padding: "14vh 0" }}>
               <div className='videoContainer'>
-                <video width="800" autoPlay="true" loop="true" controls >
+                <video width="800" autoPlay="true" loop="true" >
                   <source src={GameVideo[1]} type="video/mp4" />
                 </video>
                 <div>
@@ -84,7 +85,7 @@ function Home() {
             </FullpageSection>
             <FullpageSection style={{ with: "100vh", padding: "14vh 0" }}>
               <div className='videoContainer'>
-                <video width="800" autoPlay="true" loop="true" controls >
+                <video width="800" autoPlay="true" loop="true" >
                   <source src={GameVideo[2]} type="video/mp4" />
                 </video>
                 <div>
