@@ -3,7 +3,7 @@ import Navbar from '../Components/Navbar';
 import profilePicture from '../Images/profile-picture.jpg';
 import gmail from '../Images/gmail.png';
 import phoneCall from '../Images/phone-call.png';
-import linkedin from '../Images/linkedin.png';
+// import linkedin from '../Images/linkedin.png';
 import Fullpage, { FullPageSections, FullpageSection } from '@ap.cx/react-fullpage';
 import ZombieKillerGame from '../Video/ZombieKillerGame.mp4';
 import BattleGround from '../Video/Battleground.mp4';
@@ -39,9 +39,6 @@ function Home() {
 
                     <a onMouseEnter={() => { setPhoneNumber(true) }} onMouseLeave={() => {setPhoneNumber(false)}} href="tel:932-664-7491"><img src={phoneCall} alt='Gmail' /> </a>{phoneNumber && "9326647491"}
                   </div>
-                  <div className='linkedin'>
-                    <img src={linkedin} alt='linkedin' />
-                  </div>
                 </div>
               </div>
               <div className='myProjectsHeading'>
@@ -55,7 +52,7 @@ function Home() {
           <div className='videoPlayer'>
             <FullpageSection style={{ with: "100vh", padding: "14vh 0" }}>
               <div className='videoContainer'>
-                <video width="800" autoPlay="true" loop="true" >
+                <video width="800" autoPlay="true" loop="true" muted>
                   <source src={GameVideo[0]} type="video/mp4" />
                 </video>
                 <div>
@@ -70,7 +67,7 @@ function Home() {
             </FullpageSection>
             <FullpageSection style={{ with: "100vh", padding: "14vh 0" }}>
               <div className='videoContainer'>
-                <video width="800" autoPlay="true" loop="true" >
+                <video width="800" autoPlay="true" loop="true" muted>
                   <source src={GameVideo[1]} type="video/mp4" />
                 </video>
                 <div>
@@ -85,7 +82,7 @@ function Home() {
             </FullpageSection>
             <FullpageSection style={{ with: "100vh", padding: "14vh 0" }}>
               <div className='videoContainer'>
-                <video width="800" autoPlay="true" loop="true" >
+                <video width="800" autoPlay="true" loop="true" muted>
                   <source src={GameVideo[2]} type="video/mp4" />
                 </video>
                 <div>
