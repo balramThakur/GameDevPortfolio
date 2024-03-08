@@ -5,7 +5,7 @@ function Navbar() {
         <h3>Portfolio 😄</h3>
         <ul>
             <li>
-                <a href="/">Home</a>
+                <a href="/GameDevPortfolio">Home</a>
             </li>
             <li>
                 About
