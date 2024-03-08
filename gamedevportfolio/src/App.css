@@ -223,6 +223,9 @@ a {
 }
 
 @media only screen and (max-width: 600px) {
+  .App{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
   .navbar {
     padding-left: 9px;
   }
@@ -266,7 +269,6 @@ a {
 
   .videoPlayer .videoContainer video{
     width: 97vw;
-    /* margin: 0px 5px; */
     margin: auto;
   }
 }
