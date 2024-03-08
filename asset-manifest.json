@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/GameDevPortfolio/static/css/main.831b53b2.css",
+    "main.css": "/GameDevPortfolio/static/css/main.90a1fa25.css",
     "main.js": "/GameDevPortfolio/static/js/main.b6a12cfa.js",
     "static/js/453.4f7b26fb.chunk.js": "/GameDevPortfolio/static/js/453.4f7b26fb.chunk.js",
     "static/media/Battlefront.mp4": "/GameDevPortfolio/static/media/Battlefront.6b7904503f97816a6d10.mp4",
@@ -9,12 +9,12 @@
     "static/media/profile-picture.jpg": "/GameDevPortfolio/static/media/profile-picture.dea06da0ed86f87ae6ad.jpg",
     "static/media/phone-call.png": "/GameDevPortfolio/static/media/phone-call.9f67e819001cd616ba13.png",
     "index.html": "/GameDevPortfolio/index.html",
-    "main.831b53b2.css.map": "/GameDevPortfolio/static/css/main.831b53b2.css.map",
+    "main.90a1fa25.css.map": "/GameDevPortfolio/static/css/main.90a1fa25.css.map",
     "main.b6a12cfa.js.map": "/GameDevPortfolio/static/js/main.b6a12cfa.js.map",
     "453.4f7b26fb.chunk.js.map": "/GameDevPortfolio/static/js/453.4f7b26fb.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.831b53b2.css",
+    "static/css/main.90a1fa25.css",
     "static/js/main.b6a12cfa.js"
   ]
 }
