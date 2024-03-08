@@ -16,7 +16,7 @@ function Home() {
   const [phoneNumber, setPhoneNumber] = useState(false);
   const GameVideo = [ZombieKillerGame, BattleGround, GalaxyShooter];
   const GameTitle = ["Zombie Killer", "BattleGround Havoc", "Galaxi Shooter"];
-  const GameDescription = ["Zombie Killer Car is an adrenaline-pumping zombie car killer game where players unleash havoc on waves of zombies infesting the village. The objective is simple: mow down as many zombies as possible to earn points, which can be used to upgrade your car for even more carnage. With each kill, players earn one point, which can be spent on upgrading the car's health or unlocking devastating weapons like a rocket launcher."];
+  const GameDescription = ["Zombie Killer Car is an adrenaline-pumping zombie car killer game where players unleash havoc on waves of zombies infesting the village. The objective is simple: mow down as many zombies as possible to earn points, which can be used to upgrade your car for even more carnage. With each kill, players earn one point, which can be spent on upgrading the car's health or unlocking devastating weapons like a rocket launcher.","Welcome to Battlefront Havoc, where every shot counts and every move can turn the tide of battle! Engage in intense multiplayer action against players from around the globe, or hone your skills offline against challenging AI opponents. With a wide array of weapons, maps, and game modes, the battlegrounds of Battlefront Havoc await your mastery. Are you ready to unleash havoc and emerge victorious?","Embark on an epic journey through the cosmos in Galaxy Shooter, a thrilling 2D arcade game that will test your piloting skills and reflexes to the limit! Blast through waves of enemy spacecraft, dodging incoming spacecraft and collecting power-ups to enhance your ship's firepower. With mesmerizing visuals and adrenaline-pumping gameplay, Galaxy Shooter offers endless hours of space-faring excitement. Prepare for warp speed and take on the challenge of conquering the galaxy!"];
 
   return (
     <>
@@ -75,7 +75,7 @@ function Home() {
                     {GameTitle[1]}
                   </h3>
                   <p>
-                    {GameDescription[0]}
+                    {GameDescription[1]}
                   </p>
                 </div>
               </div>
@@ -90,7 +90,7 @@ function Home() {
                     {GameTitle[2]}
                   </h3>
                   <p>
-                    {GameDescription[0]}
+                    {GameDescription[2]}
                   </p>
                 </div>
               </div>

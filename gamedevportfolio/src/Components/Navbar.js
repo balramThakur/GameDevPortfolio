@@ -5,7 +5,7 @@ function Navbar() {
         <h3>Portfolio 😄</h3>
         <ul>
             <li>
-                <a href="../Pages/Home.js">Home</a>
+                <a href="/">Home</a>
             </li>
             <li>
                 About
