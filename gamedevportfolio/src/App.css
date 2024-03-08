@@ -265,7 +265,8 @@ a {
   }
 
   .videoPlayer .videoContainer video{
-    width: 402px;
-    margin: 0px 5px;
+    width: 97vw;
+    /* margin: 0px 5px; */
+    margin: auto;
   }
 }
