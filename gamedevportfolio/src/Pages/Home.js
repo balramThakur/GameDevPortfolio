@@ -9,6 +9,7 @@ import ZombieKillerGame from '../Video/ZombieKillerGame.mp4';
 import BattleGround from '../Video/Battlefront.mp4';
 import GalaxyShooter from '../Video/GalaxyShooter.mp4';
 import { FaChevronDown } from "react-icons/fa";
+import About from './About';
 
 function Home() {
 
@@ -96,6 +97,9 @@ function Home() {
               </div>
             </FullpageSection>
           </div>
+          <FullpageSection>
+            <About/>
+          </FullpageSection>
         </FullPageSections>
       </Fullpage>
 

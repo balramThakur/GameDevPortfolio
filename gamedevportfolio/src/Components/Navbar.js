@@ -3,7 +3,7 @@ function Navbar() {
   return (
     <div className='navbar'>
         <h3>Portfolio 😄</h3>
-        <ul>
+        {/* <ul>
             <li>
                 <a href="/GameDevPortfolio">Home</a>
             </li>
@@ -13,7 +13,7 @@ function Navbar() {
             <li>
                 Contact Me
             </li>
-        </ul>
+        </ul> */}
     </div>
   )
 }
