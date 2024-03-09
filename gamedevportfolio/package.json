@@ -1,7 +1,7 @@
 {
   "name": "gamedevportfolio",
   "version": "0.1.0",
-  "homepage": "https://balramThakur.github.io/GameDevPortfolio",
+  "homepage": "",
   "private": true,
   "dependencies": {
     "@ap.cx/react-fullpage": "^0.3.0",
