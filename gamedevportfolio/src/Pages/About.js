@@ -1,14 +1,15 @@
 import React from 'react';
 import { FaUnity } from "react-icons/fa";
-import { SiBlender,SiFlutter } from "react-icons/si";
-import { RiReactjsLine } from "react-icons/ri";
+import { SiBlender } from "react-icons/si";
+// import { RiReactjsLine } from "react-icons/ri";
 import cshapreLogo from "../Images/clogo.png";
+import cv from "../Data/cv.pdf";
 
 function About() {
     return (
         <>
             <div className='aboutSection'>
-                <div className="imptyContainer">
+                <div className="emptyContainer">
                     <h2>About Me</h2>
                 </div>
                 <div className="aboutMePara">
@@ -26,12 +27,14 @@ function About() {
                         <FaUnity />
                         <SiBlender />
                         <img src={cshapreLogo} className='cshapreLogo' alt="C#" />
-                        <h3>Other Programming Skills: </h3>
+                        {/* <h3>Other Programming Skills: </h3>
                         <RiReactjsLine />
-                        <SiFlutter/>
+                        <SiFlutter /> */}
+                    </div>
+                    <div className="cvPdf">
+                        <a href={cv} >Download My CV</a>
                     </div>
                 </div>
-
             </div>
         </>
     )

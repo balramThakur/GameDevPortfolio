@@ -228,7 +228,7 @@ a {
   font-size: 22px;
 }
 
-.aboutSection .imptyContainer {
+.aboutSection .emptyContainer {
   width: 20vw;
   height: 100vh;
   background: linear-gradient(#348f50, #56b4d3);
@@ -251,6 +251,14 @@ a {
 .skills img{
   width: 36px;
 }
+
+.cvPdf a{
+  border: 2px solid black;
+    padding: 0px 4px;
+    margin-left: 31px;
+    background: #4ca9af;
+    border-radius: 3px;
+}
 /* .aboutSection p h2{
   background: linear-gradient(to right, #348f50, #56b4d3);
   color: white;
@@ -259,7 +267,7 @@ a {
 
 @media only screen and (max-width: 600px) {
   .App {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: system-ui;
   }
 
   .navbar {
@@ -306,5 +314,21 @@ a {
   .videoPlayer .videoContainer video {
     width: 97vw;
     margin: auto;
+  }
+
+  .aboutSection .emptyContainer{
+    width: 23vw;
+  }
+
+  .aboutSection .emptyContainer h2{
+    font-size: 31px;
+    padding: 7px;
+  }
+
+  .aboutSection p{
+    width: 76vw;
+    padding: 9px 8px;
+    font-size: 17px;
+    font-family: system-ui;
   }
 }
