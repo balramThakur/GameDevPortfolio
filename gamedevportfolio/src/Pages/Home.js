@@ -3,7 +3,7 @@ import Navbar from '../Components/Navbar';
 import profilePicture from '../Images/profile-picture.jpg';
 import gmail from '../Images/gmail.png';
 import phoneCall from '../Images/phone-call.png';
-// import linkedin from '../Images/linkedin.png';
+import { FaDownload } from "react-icons/fa";
 import Fullpage, { FullPageSections, FullpageSection } from '@ap.cx/react-fullpage';
 import ZombieKillerGame from '../Video/ZombieKillerGame.mp4';
 import BattleGround from '../Video/Battlefront.mp4';
@@ -59,7 +59,8 @@ function Home() {
                 <div>
                   <h3>
                     {GameTitle[0]}
-                  </h3>
+                    <a href="https://play.google.com/store/apps/details?id=com.BalramThakur.ZombieKillerCar"><FaDownload/></a>
+                  </h3> 
                   <p>
                     {GameDescription[0]}
                   </p>
@@ -74,6 +75,7 @@ function Home() {
                 <div>
                   <h3>
                     {GameTitle[1]}
+                    <a href="https://drive.google.com/file/d/1x4h_ZOYt1sd5JGgy5J05b1pVRZyb0cTJ/view?usp=drive_link"><FaDownload/></a>
                   </h3>
                   <p>
                     {GameDescription[1]}
@@ -89,6 +91,7 @@ function Home() {
                 <div>
                   <h3>
                     {GameTitle[2]}
+                    <a href="https://drive.google.com/file/d/1PjLGjKdRjDrBO03MkVky0g6EDSI2Zrz5/view?usp=sharing"><FaDownload/></a>
                   </h3>
                   <p>
                     {GameDescription[2]}

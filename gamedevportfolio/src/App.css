@@ -220,6 +220,8 @@ a {
   background: #4aa7a6;
   padding: 0px 5px;
   color: white;
+  display: flex;
+    flex-direction: column;
 }
 
 .aboutSection {
