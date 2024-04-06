@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/GameDevPortfolio/static/css/main.079e5d9c.css",
-    "main.js": "/GameDevPortfolio/static/js/main.ce1c8b6a.js",
+    "main.css": "/GameDevPortfolio/static/css/main.2ec92d9a.css",
+    "main.js": "/GameDevPortfolio/static/js/main.e6e750fe.js",
     "static/js/453.4f7b26fb.chunk.js": "/GameDevPortfolio/static/js/453.4f7b26fb.chunk.js",
     "static/media/Battlefront.mp4": "/GameDevPortfolio/static/media/Battlefront.6b7904503f97816a6d10.mp4",
     "static/media/ZombieKillerGame.mp4": "/GameDevPortfolio/static/media/ZombieKillerGame.0f5bcfd4c63d5d0b605b.mp4",
@@ -11,12 +11,12 @@
     "static/media/clogo.png": "/GameDevPortfolio/static/media/clogo.842e3eae283f4cd3868f.png",
     "static/media/phone-call.png": "/GameDevPortfolio/static/media/phone-call.9f67e819001cd616ba13.png",
     "index.html": "/GameDevPortfolio/index.html",
-    "main.079e5d9c.css.map": "/GameDevPortfolio/static/css/main.079e5d9c.css.map",
-    "main.ce1c8b6a.js.map": "/GameDevPortfolio/static/js/main.ce1c8b6a.js.map",
+    "main.2ec92d9a.css.map": "/GameDevPortfolio/static/css/main.2ec92d9a.css.map",
+    "main.e6e750fe.js.map": "/GameDevPortfolio/static/js/main.e6e750fe.js.map",
     "453.4f7b26fb.chunk.js.map": "/GameDevPortfolio/static/js/453.4f7b26fb.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.079e5d9c.css",
-    "static/js/main.ce1c8b6a.js"
+    "static/css/main.2ec92d9a.css",
+    "static/js/main.e6e750fe.js"
   ]
 }
